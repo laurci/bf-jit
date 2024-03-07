@@ -1,0 +1,9 @@
+[package]
+name = "bf-jit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.80"
+iced-x86 = { version = "1.21.0", features = ["code_asm"] }
+libc = "0.2.153"
