@@ -13,5 +13,5 @@ cargo run --release ./examples/helloworld.bf
 Or, if you want to see the debug output:
 
 ```sh
-cargo run --release ./examples/helloworld.bf
+cargo run ./examples/helloworld.bf
 ```
